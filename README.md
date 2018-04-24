@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1227837.svg)](https://doi.org/10.5281/zenodo.1227837)
+
 # Hyperspectral benchmark dataset on soil moisture
 
 Hyperspectral and soil-moisture data from a field campaign based on a soil sample. Karlsruhe (Germany), 2017.
@@ -11,7 +13,7 @@ Hyperspectral and soil-moisture data from a field campaign based on a soil sampl
 - [Felix M. Riese, M.Sc.](mailto:felix.riese@kit.edu)
 - [Dr. rer.nat. Sina Keller](mailto:sina.keller@kit.edu) 
 
-**Citation of the dataset:** TODO
+**Citation of the dataset:** Riese, Felix M. and Keller, Sina. (2018). Hyperspectral benchmark dataset on soil moisture (Version v1.0.0) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.1227837
 
 ## Description
 This dataset was measured in a five-day field campaign in May 2017 in Karlsruhe, Germany. An undisturbed soil sample is the centerpiece of the measurement setup. The soil sample consists of bare soil without any vegetation and was taken in the area near Waldbronn, Germany.
