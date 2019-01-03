@@ -13,7 +13,7 @@ Hyperspectral and soil-moisture data from a field campaign based on a soil sampl
 - [Felix M. Riese, M.Sc.](mailto:felix.riese@kit.edu)
 - [Dr. rer.nat. Sina Keller](mailto:sina.keller@kit.edu)
 
-**Citation of the dataset:** Riese, Felix M. and Keller, Sina. (2018). Hyperspectral benchmark dataset on soil moisture (Version v1.0.0) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.1227837
+**Citation of the dataset:** Riese, Felix M. and Keller, Sina. (2018). Hyperspectral benchmark dataset on soil moisture (Version v1.0.3) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.1227836
 
 **BibTex:** File included in this repository ([here](bibliography.bib))
 
