@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1227837.svg)](https://doi.org/10.5281/zenodo.1227837)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1227836.svg)](https://doi.org/10.5281/zenodo.1227836)
 
 # Hyperspectral benchmark dataset on soil moisture
 
