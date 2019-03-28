@@ -4,8 +4,6 @@
 
 Hyperspectral and soil-moisture data from a field campaign based on a soil sample. Karlsruhe (Germany), 2017.
 
-**Introducing paper:** Felix M. Riese and Sina Keller, “Introducing a Framework of Self-Organizing Maps for Regression of Soil Moisture with Hyperspectral Data,” in *IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium*, Valencia, Spain, 2018, pp. 6151-6154.
-
 **License:** [GNU GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
 
 **Authors:**
@@ -14,6 +12,8 @@ Hyperspectral and soil-moisture data from a field campaign based on a soil sampl
 - [Dr. rer.nat. Sina Keller](mailto:sina.keller@kit.edu)
 
 **Citation of the dataset:** Riese, Felix M. and Keller, Sina. (2018). Hyperspectral benchmark dataset on soil moisture (Version v1.0.3) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.1227836
+
+**Introducing paper:** Felix M. Riese and Sina Keller, “Introducing a Framework of Self-Organizing Maps for Regression of Soil Moisture with Hyperspectral Data,” in *IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium*, Valencia, Spain, 2018, pp. 6151-6154. ([Link](https://doi.org/10.1109/IGARSS.2018.8517812))
 
 **BibTex:** File included in this repository ([here](bibliography.bib))
 
