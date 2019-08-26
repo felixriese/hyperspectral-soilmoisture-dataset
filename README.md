@@ -12,11 +12,8 @@ Hyperspectral and soil-moisture data from a field campaign based on a soil sampl
 - [Felix M. Riese, M.Sc.](mailto:felix.riese@kit.edu)
 - [Dr. rer.nat. Sina Keller](mailto:sina.keller@kit.edu)
 
-**Citation of the dataset:** Riese, Felix M. and Keller, Sina. (2018). Hyperspectral benchmark dataset on soil moisture (Version v1.0.3) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.1227836
+**Citation:** see [Citation](#citation) and [bibliography.bib](bibliography.bib).
 
-**Introducing paper:** Felix M. Riese and Sina Keller, “Introducing a Framework of Self-Organizing Maps for Regression of Soil Moisture with Hyperspectral Data,” in *IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium*, Valencia, Spain, 2018, pp. 6151-6154. ([Link](https://doi.org/10.1109/IGARSS.2018.8517812))
-
-**BibTex:** File included in this repository ([here](bibliography.bib))
 
 ## Description
 
@@ -59,3 +56,41 @@ X_train, X_test, y_train, y_test = train_test_split(
     df[hypbands], df["soil_moisture"],
     test_size=0.5, random_state=42, shuffle=True)
 ```
+
+## Citation
+
+The bibtex file including both references is available in [bibliography.bib](bibliography.bib).
+
+**Paper**
+
+Felix M. Riese and Sina Keller, “Introducing a Framework of Self-Organizing Maps for Regression of Soil Moisture with Hyperspectral Data,” in *IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium*, Valencia, Spain, 2018, pp. 6151-6154. ([Link](https://doi.org/10.1109/IGARSS.2018.8517812))
+
+```
+    @inproceedings{riese2018introducing,
+        author = {Riese, Felix~M. and Keller, Sina},
+        title = {{Introducing a Framework of Self-Organizing Maps for Regression of Soil Moisture with Hyperspectral Data}},
+        booktitle = {IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium},
+        year = {2018},
+        month = {July},
+        address = {Valencia, Spain},
+        doi = {10.1109/IGARSS.2018.8517812},
+        ISSN = {2153-7003},
+        pages = {6151--6154},
+    }
+```
+
+**Code**
+
+Felix M. Riese and Sina Keller, "Hyperspectral benchmark dataset on soil moisture", Dataset, Zenodo, 2018. ([Link](http://doi.org/10.5281/zenodo.1227836))
+
+```
+    @misc{riesekeller2018,
+        author = {Riese, Felix~M. and Keller, Sina},
+        title = {Hyperspectral benchmark dataset on soil moisture},
+        year = {2018},
+        DOI = {10.5281/zenodo.1227837},
+        publisher = {Zenodo},
+        howpublished = {\href{https://doi.org/10.5281/zenodo.1227837}{doi.org/10.5281/zenodo.1227837}}
+    }
+```
+
