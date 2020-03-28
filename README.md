@@ -4,16 +4,20 @@
 
 # Hyperspectral benchmark dataset on soil moisture
 
-Hyperspectral and soil-moisture data from a field campaign based on a soil sample. Karlsruhe (Germany), 2017.
+Hyperspectral and soil-moisture data from a lysimeter field campaign based on a soil sample. Karlsruhe (Germany), 2017.
 
-**License:** [GNU GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
+**Abbreviation:** KarLy (Karlsruhe Lysimeter)
+
+**License:** [CC BY 4.0](LICENSE)
 
 **Authors:**
 
-- [Felix M. Riese, M.Sc.](mailto:felix.riese@kit.edu)
+- [Felix M. Riese, M.Sc.](mailto:github@felixriese.de)
 - [Dr. rer.nat. Sina Keller](mailto:sina.keller@kit.edu)
 
 **Citation:** see [Citation](#citation) and [bibliography.bib](bibliography.bib).
+
+**Example script:** [example.ipynb](example.ipynb)
 
 
 ## Description
@@ -27,36 +31,11 @@ The following sensors were deployed:
 
 ## Variables
 
-- **datetime:** date and time of the measurement
+- **datetime:** date and time (CEST) of the measurement
 - **soil_moisture:** soil moisture in %
 - **soil_temperature:** soil temperature in °C
 - **454, 458, … 946, 950:** hyperspectral bands in nm
 
-## Example script to read in the data
-
-In Python 3.6:
-
-```python
-import pandas as pd
-from sklearn.model_selection import train_test_split
-
-# load dataframe
-df = pd.read_csv("soilmoisture_dataset.csv", index_col=0)
-
-# get hyperspectral bands:
-hypbands = []
-for col in df.columns:
-    try:
-        int(col)
-    except Exception:
-        continue
-    hypbands.append(col)
-
-# split dataset
-X_train, X_test, y_train, y_test = train_test_split(
-    df[hypbands], df["soil_moisture"],
-    test_size=0.5, random_state=42, shuffle=True)
-```
 
 ## Citation
 
