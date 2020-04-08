@@ -15,6 +15,8 @@ Hyperspectral and soil-moisture data from a lysimeter field campaign based on a 
 - [Felix M. Riese, M.Sc.](mailto:github@felixriese.de)
 - [Dr. rer.nat. Sina Keller](mailto:sina.keller@kit.edu)
 
+**Affiliation:** Karlsruhe Institute of Technology, Institute of Photogrammetry and Remote Sensing ([Link](https://ipf.kit.edu))
+
 **Citation:** see [Citation](#citation) and [bibliography.bib](bibliography.bib).
 
 **Example script:** [example.ipynb](example.ipynb)
