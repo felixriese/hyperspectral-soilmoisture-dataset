@@ -31,6 +31,8 @@ The following sensors were deployed:
 - Cubert UHD 285 **hyperspectral** snapshot camera recording 50 by 50 images with 125 spectral bands ranging from 450 nm to 950 nm and a spectral resolution of 4 nm.
 - TRIME-PICO time-domain reflectometry (TDR) sensor in a depth of 2 cm measuring the **soil moisture** in percent.
 
+The raw sensor data was processed with the [Hyperspectral Processing Scripts for the HydReSGeo Dataset](https://github.com/felixriese/hyperspectral-processing) beforehand.
+
 ## Variables
 
 - **datetime:** date and time (CEST) of the measurement
