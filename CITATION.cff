@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the article from preferred-citation and the software itself."
+authors:
+  - family-names: Riese
+    given-names: Felix M.
+    orcid: https://orcid.org/0000-0003-0596-9585
+  - family-names: Keller
+    given-names: Sina
+    orcid: https://orcid.org/0000-0002-7710-5316
+title: "Hyperspectral benchmark dataset on soil moisture"
+version: 1.0.3
+doi: "10.5281/zenodo.1227837"
+date-released: 2019-01-03
+repository-code: https://github.com/felixriese/hyperspectral-soilmoisture-dataset
+license: BSD-3-Clause
+preferred-citation:
+  authors:
+    - family-names: Riese
+      given-names: Felix M.
+    - family-names: Keller
+      given-names: Sina
+  title: "Introducing a Framework of Self-Organizing Maps for Regression of Soil Moisture with Hyperspectral Data"
+  collection-title: "IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium"
+  collection-type: proceedings
+  conference:
+    name: "IGARSS 2018"
+  year: 2018
+  doi: "10.1109/IGARSS.2018.8517812"
+  start: 6151
+  end: 6154
